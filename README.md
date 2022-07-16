@@ -22,9 +22,9 @@ start
 test
     python -m pipenv run pytest
 lint
-    python -m pipenv run mypy .
+    python -m pipenv run mypy . --strict
 format
-    python -m black . && python -m isort
+    python -m black . && python -m isort -y
 format:check
     python -m black --check . && python -m isort --check-only
 coverage

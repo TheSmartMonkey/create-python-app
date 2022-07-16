@@ -4,8 +4,8 @@
   "description": "Simple python app with typing, linting, formating and venv",
   "scripts": {
     "start": "py main.py",
-    "lint": "python -m pipenv run mypy .",
-    "format": "python -m black . && python -m isort",
+    "lint": "python -m pipenv run mypy . --strict",
+    "format": "python -m black . && python -m isort -y",
     "format:check": "python -m black --check . && python -m isort --check-only",
     "test": "python -m pipenv run pytest",
     "coverage": "python -m pipenv run pytest --cov --cov-fail-under=100"

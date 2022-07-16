@@ -1,7 +1,7 @@
 from src.models.helloModel import HttpMessageModel
 
 
-def message() -> str:
+def message() -> None:
     print("hello world !")
 
 
@@ -10,7 +10,7 @@ def inc(x: int) -> int:
 
 
 def http_message(message: str) -> HttpMessageModel:
-    return {
-        "message": message,
-        "code": 200,
-    }
+    return HttpMessageModel(
+        message=message,
+        code=200,
+    )
