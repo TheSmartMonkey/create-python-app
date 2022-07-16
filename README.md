@@ -27,6 +27,8 @@ format
     python -m black . && python -m isort
 format:check
     python -m black --check . && python -m isort --check-only
+coverage
+    python -m pipenv run pytest --cov --cov-fail-under=100
 ```
 
 ## Annexe
