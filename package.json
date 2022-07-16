@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Simple python app with typing, linting, formating and venv",
   "scripts": {
-    "start": "py main.py"
+    "start": "py main.py",
+    "format": "python -m black . && python -m isort",
+    "format:check": "python -m black --check . && python -m isort --check-only"
   },
   "repository": {
     "type": "git",
