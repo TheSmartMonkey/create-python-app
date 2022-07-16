@@ -6,7 +6,8 @@
     "start": "py main.py",
     "lint": "python -m pipenv run mypy .",
     "format": "python -m black . && python -m isort",
-    "format:check": "python -m black --check . && python -m isort --check-only"
+    "format:check": "python -m black --check . && python -m isort --check-only",
+    "test": "python -m pipenv run pytest"
   },
   "repository": {
     "type": "git",
