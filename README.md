@@ -2,7 +2,7 @@
 
 Simple python app with typing, linting, formating and venv
 
-This template has been created following this article : [python-best-practices](https://sourcery.ai/blog/python-best-practices/#pipenv)
+This template has been created following this article : [set-up-perfect-python-project](https://sourcery.ai/blog/python-best-practices)
 
 ## Installation
 
@@ -37,7 +37,7 @@ coverage
 
 ## Folder tree
 
-```sh
+```
 │   .gitignore
 │   LICENSE
 │   main.py
