@@ -16,7 +16,7 @@ npx degit https://github.com/TheSmartMonkey/create-python-app app
 
 1. Avalable commands with `npm run` (`npm run start` runes your code)
 
-```sh
+```
 start
     py main.py
 test
@@ -28,7 +28,7 @@ format
 format:check
     python -m black --check . && python -m isort --check-only
 coverage
-    python -m pipenv run pytest --cov --cov-fail-under=100
+    python -m pipenv run pytest --cov --cov-fail-under=90
 ```
 
 ## Annexe
