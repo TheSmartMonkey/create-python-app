@@ -38,6 +38,7 @@ coverage
 ## Folder tree
 
 ```
+│   .vscode
 │   .gitignore
 │   LICENSE
 │   main.py
@@ -50,14 +51,17 @@ coverage
 │
 +---src
 │   +---functions
+│   │   │   __init__.py
 │   │   │   hello.py
 │   │   │   README.md
 │   │           
 │   +---lib
+│   │       __init__.py
 │   │       README.md
 │   │       utils.py
 │   │       
 │   +---models
+│       │   __init__.py
 │       │   hello_model.py
 │
 +---tests
