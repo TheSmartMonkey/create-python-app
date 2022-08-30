@@ -65,6 +65,6 @@ coverage
 │       │   hello_model.py
 │
 +---tests
-        test_sample.py
         __init__.py
+        test_sample.py
 ```

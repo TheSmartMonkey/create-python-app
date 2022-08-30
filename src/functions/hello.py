@@ -1,4 +1,4 @@
-from src.models.hello_model import HttpMessageModel
+from models.hello_model import HttpMessageModel
 
 
 def message() -> None:

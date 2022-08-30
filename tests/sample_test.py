@@ -1,4 +1,4 @@
-from src.functions.hello import http_message, inc
+from functions.hello import http_message, inc
 
 
 def test_inc() -> None:
